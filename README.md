@@ -2,6 +2,16 @@
 
 A RESTful API built with Node.js, Express.js, and MongoDB for user management with CRUD operations and login functionality.
 
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/penki4387/nodejs_crud)
+
+## Features
+- User Registration and Login
+- CRUD Operations for User Management
+- MongoDB Database Integration
+- RESTful API Design
+- Error Handling
+- Input Validation
+
 ## Project Structure
 ```
 ├── app.js              # Main application file
@@ -24,8 +34,8 @@ A RESTful API built with Node.js, Express.js, and MongoDB for user management wi
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd <project-directory>
+git clone https://github.com/penki4387/nodejs_crud.git
+cd nodejs_crud
 ```
 
 2. Install dependencies:
@@ -250,5 +260,15 @@ curl -X DELETE http://localhost:3000/api/users/<user_id>
 - mongoose: MongoDB object modeling
 - dotenv: Environment variable management
 
+## Contributing
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
 ## License
-ISC 
+This project is licensed under the ISC License.
+
+## Contact
+GitHub: [@penki4387](https://github.com/penki4387) 
